@@ -1,3 +1,9 @@
+<?php
+	$paginas = ['home'=>'Minha pagina home aqui','sobre'=>'Estou na página sobre','contato'=>'<form><input type="text" 
+    	placeholder="Seu nome..." /></form>','FAQ'=>'Perguntas frequentes','loja'=>'conteúdo loja',
+    	'Sobre'=>'Site em desenvolvimento por @gaabrieloliver'];
+	?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -53,11 +59,7 @@
 
 </head>
 <body>
-	<?php
-	$paginas = ['home'=>'Minha pagina home aqui','sobre'=>'Estou na página sobre','contato'=>'<form><input type="text" 
-    	placeholder="Seu nome..." /></form>','FAQ'=>'Perguntas frequentes','loja'=>'conteúdo loja',
-    	'Sobre'=>'Site em desenvolvimento por @gaabrieloliver'];
-	?>
+	
     <header>
 	    <?php
 		foreach ($paginas as $key => $value){
